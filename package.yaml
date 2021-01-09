@@ -1,0 +1,57 @@
+name:                primate-dsl
+version:             0.1.0.0
+github:              "rajatpundir/primate-dsl"
+license:             BSD3
+author:              "Rajat Pundir"
+maintainer:          "rajatpundir13@gmail.com"
+copyright:           "Copyright (C) 2021 Rajat Pundir - All Rights Reserved"
+
+extra-source-files:
+- README.md
+
+# Metadata used when publishing your package
+# synopsis:            Short description of your package
+# category:            dsl
+
+# To avoid duplicated efforts in documentation and dealing with the
+# complications of embedding Haddock markup inside cabal files, it is
+# common to point users to the README.md file.
+description:         Please see the README on GitHub at <https://github.com/rajatpundir/primate-dsl#readme>
+
+dependencies:
+- base >= 4.7 && < 5
+- aeson
+- servant-server
+- wai
+- warp
+
+library:
+  source-dirs: src
+
+executables:
+  primate-dsl-exe:
+    main:                Main.hs
+    source-dirs:         app
+    ghc-options:
+    - -threaded
+    - -rtsopts
+    - -with-rtsopts=-N
+    dependencies:
+    - base
+    - primate-dsl
+
+tests:
+  primate-dsl-test:
+    main:                Spec.hs
+    source-dirs:         test
+    ghc-options:
+    - -threaded
+    - -rtsopts
+    - -with-rtsopts=-N
+    dependencies:
+    - base
+    - primate-dsl
+    - hspec
+    - hspec-wai
+    - hspec-wai-json
+    - aeson
