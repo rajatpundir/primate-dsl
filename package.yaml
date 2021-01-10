@@ -1,7 +1,7 @@
 name:                primate-dsl
 version:             0.1.0.0
 github:              "rajatpundir/primate-dsl"
-license:             BSD3
+license:             AllRightsReserved
 author:              "Rajat Pundir"
 maintainer:          "rajatpundir13@gmail.com"
 copyright:           "Copyright (C) 2021 Rajat Pundir - All Rights Reserved"

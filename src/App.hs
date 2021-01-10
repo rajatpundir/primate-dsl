@@ -1,10 +1,10 @@
 {-# LANGUAGE DataKinds       #-}
 {-# LANGUAGE TypeOperators   #-}
 
-module Lib (app) where
+module App (app) where
 
 import Servant
-import Uu
+import User
 
 type API = "users" :> Get '[JSON] [User]
 

@@ -1,8 +1,7 @@
 {-# LANGUAGE TemplateHaskell #-}
 
-module Uu(User(..)) where
+module User(User(..)) where
 
--- import Data.Aeson
 import Data.Aeson.TH
 
 data User = User

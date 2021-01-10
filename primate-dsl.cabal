@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: f20ca60fcfdef1e5e027aebd66aa9148dda3abcc291f86da15f4f38222ee2305
+-- hash: 7fd801bda05161a4b96ad2cfb5b70169e6e95872de3c6439d56c548db8b757df
 
 name:           primate-dsl
 version:        0.1.0.0
@@ -14,7 +14,7 @@ bug-reports:    https://github.com/rajatpundir/primate-dsl/issues
 author:         Rajat Pundir
 maintainer:     rajatpundir13@gmail.com
 copyright:      Copyright (C) 2021 Rajat Pundir - All Rights Reserved
-license:        BSD3
+license:        AllRightsReserved
 license-file:   LICENSE
 build-type:     Simple
 extra-source-files:
@@ -26,8 +26,8 @@ source-repository head
 
 library
   exposed-modules:
-      Lib
-      Uu
+      App
+      User
   other-modules:
       Paths_primate_dsl
   hs-source-dirs:
