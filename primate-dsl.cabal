@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 29d9bbe1aa9d07a5bd2716b1f330ea1e6a48f41b137082d12ab85afe79fb9989
+-- hash: f20ca60fcfdef1e5e027aebd66aa9148dda3abcc291f86da15f4f38222ee2305
 
 name:           primate-dsl
 version:        0.1.0.0
@@ -27,6 +27,7 @@ source-repository head
 library
   exposed-modules:
       Lib
+      Uu
   other-modules:
       Paths_primate_dsl
   hs-source-dirs:
