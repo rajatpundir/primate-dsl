@@ -5,6 +5,7 @@ module App (app) where
 
 import Servant
 import User
+import Entities.Value
 
 type API = "users" :> Get '[JSON] [User]
 
