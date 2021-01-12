@@ -6,6 +6,9 @@ module App (app) where
 import Servant
 import User
 import Entities.Value
+import Entities.Function.FunctionInputKey
+import Entities.Function.FunctionOutputKey
+
 
 type API = "users" :> Get '[JSON] [User]
 

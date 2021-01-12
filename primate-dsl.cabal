@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 0997bb9599494b040ce2e1f0079221c5e0f88c4d1311dddf078042b9e37a3edb
+-- hash: 7a86f8f81dc056792d4f7055d7a869c7e600b76fe4fac36cc2eefd0232e523df
 
 name:           primate-dsl
 version:        0.1.0.0
@@ -28,8 +28,17 @@ library
   exposed-modules:
       App
       Entities.Formula
+      Entities.Function.Function
+      Entities.Function.FunctionInput
+      Entities.Function.FunctionInputKey
+      Entities.Function.FunctionInputType
+      Entities.Function.FunctionOutput
+      Entities.Function.FunctionOutputKey
+      Entities.Function.FunctionOutputType
       Entities.Key
       Entities.Organization
+      Entities.Permission.KeyPermission
+      Entities.Permission.TypePermission
       Entities.Type
       Entities.Value
       Entities.Variable
