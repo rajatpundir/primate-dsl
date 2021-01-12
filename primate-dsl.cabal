@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 7a86f8f81dc056792d4f7055d7a869c7e600b76fe4fac36cc2eefd0232e523df
+-- hash: cf9ab5ad6356b216cc53e135d909858b2bc1187272488716a7f5a9b669c6d534
 
 name:           primate-dsl
 version:        0.1.0.0
@@ -35,11 +35,22 @@ library
       Entities.Function.FunctionOutput
       Entities.Function.FunctionOutputKey
       Entities.Function.FunctionOutputType
+      Entities.Group
       Entities.Key
+      Entities.Mappings.GroupRole
+      Entities.Mappings.RoleFunctionPermission
+      Entities.Mappings.RoleTypePermission
+      Entities.Mappings.UserGroup
+      Entities.Mappings.UserRole
       Entities.Organization
+      Entities.Permission.FunctionInputPermission
+      Entities.Permission.FunctionOutputPermission
+      Entities.Permission.FunctionPermission
       Entities.Permission.KeyPermission
       Entities.Permission.TypePermission
+      Entities.Role
       Entities.Type
+      Entities.User
       Entities.Value
       Entities.Variable
       User
