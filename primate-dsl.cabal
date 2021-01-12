@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: cf9ab5ad6356b216cc53e135d909858b2bc1187272488716a7f5a9b669c6d534
+-- hash: d9708a32d01ca78bfd18b82932d85d7aa5971e5d020c392a5b28f2e6e318e4a9
 
 name:           primate-dsl
 version:        0.1.0.0
@@ -50,9 +50,11 @@ library
       Entities.Permission.TypePermission
       Entities.Role
       Entities.Type
+      Entities.TypeAssertion
       Entities.User
       Entities.Value
       Entities.Variable
+      Entities.VariableAssertion
       User
   other-modules:
       Paths_primate_dsl
