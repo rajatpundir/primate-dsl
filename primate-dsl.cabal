@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: d9708a32d01ca78bfd18b82932d85d7aa5971e5d020c392a5b28f2e6e318e4a9
+-- hash: 7bf2c6acdd8dc74789b356a859c5db05c2f32f7f7647789fab6396de58c3d1e1
 
 name:           primate-dsl
 version:        0.1.0.0
@@ -27,6 +27,11 @@ source-repository head
 library
   exposed-modules:
       App
+      Entities.Circuit.Circuit
+      Entities.Circuit.CircuitComputation
+      Entities.Circuit.CircuitComputationConnection
+      Entities.Circuit.CircuitInput
+      Entities.Circuit.CircuitOutput
       Entities.Formula
       Entities.Function.Function
       Entities.Function.FunctionInput
